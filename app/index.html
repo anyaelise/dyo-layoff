@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" ng-app="dyoLayoff">
+    
+<head>
+  <meta charset="utf-8">
+  <title>Do Your Own Layoff</title>
+  <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="css/bootstrap.css"/>
+  <link rel="stylesheet" href="css/bootstrap-theme.css"/>
+</head>
+
+<body>
+    <nav class="navbar navbar-static-top" role="navigation">
+        <a class="navbar-brand" href="#">Do Your Own Layoff</a>
+        <div id="powered">Powered by AEM</div>
+    </nav>
+    
+    <div class="container">
+        <div ng-view></div>
+    </div>
+
+  <!-- External JS libs -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js"></script>
+  
+  <!-- App-related js -->
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular/angular-route.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+</body>
+</html>
