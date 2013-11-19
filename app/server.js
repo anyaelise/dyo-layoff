@@ -59,7 +59,7 @@ app.post('/authenticate', function(req, res) {
                 res.send(401, {invalid_password: true});
             }
             else {
-                res.cookie('admin_id', )
+                //res.cookie('admin_id', )
                 res.send({we: "fuckingdidit"});
             }
         }

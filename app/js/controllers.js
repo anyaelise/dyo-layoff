@@ -1,27 +1,6 @@
 'use strict';
 
 /* Controllers */
-/*
-angular.module('dyoLayoff.controllers', []).
-  controller('LandingController', [function($scope) {
-
-  }])
-  .controller('AuthController', [function($scope) {
-        $scope.authenticate = function() {
-            this.testtext = "Form submitted";
-            console.log("Authenticating now!");
-            var creds = {email: this.email, password: this.password};
-            $http.post('/authenticate', creds).
-                success(function(data, status, headers, config) {
-                // this callback will be called asynchronously
-                // when the response is available
-                }).
-                error(function(data, status, headers, config) {
-                  // called asynchronously if an error occurs
-                  // or server returns response with an error status.
-                });
-        };
-  }]);*/
 dyoLayoff.controller('LandingController', function($scope) {
     
 });
